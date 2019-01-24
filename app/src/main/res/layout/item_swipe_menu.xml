@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mcxtzhang.swipemenulib.SwipeMenuLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:id="@+id/tv_content"
+        android:gravity="center"
+        android:text="第一条"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tv_delete"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="删除"
+        android:background="@color/colorAccent"
+        android:layout_width="80dp"
+        android:layout_height="match_parent" />
+
+</com.mcxtzhang.swipemenulib.SwipeMenuLayout>
